@@ -1,0 +1,56 @@
+{
+  "near_dup_threshold": 2,
+  "seed": 42,
+  "official_split_contamination": {
+    "test_images": 1311,
+    "test_images_with_twin_in_train": 542,
+    "per_class_test_with_twin": {
+      "glioma": 18,
+      "meningioma": 121,
+      "notumor": 368,
+      "pituitary": 35
+    },
+    "per_class_test": {
+      "glioma": 300,
+      "meningioma": 306,
+      "notumor": 405,
+      "pituitary": 300
+    }
+  },
+  "images_total": 7023,
+  "exact_copies_collapsed": 297,
+  "redundant_near_copies_dropped_from_val_test": 398,
+  "final": {
+    "train": 4797,
+    "val": 766,
+    "test": 765
+  },
+  "per_class": {
+    "glioma": {
+      "test": 217,
+      "train": 1160,
+      "val": 220
+    },
+    "meningioma": {
+      "test": 208,
+      "train": 1160,
+      "val": 208
+    },
+    "notumor": {
+      "test": 103,
+      "train": 1232,
+      "val": 102
+    },
+    "pituitary": {
+      "test": 237,
+      "train": 1245,
+      "val": 236
+    }
+  },
+  "checks_passed": [
+    "no cluster shared across splits",
+    "no md5 shared across splits",
+    "paths unique",
+    "all four classes present"
+  ]
+}

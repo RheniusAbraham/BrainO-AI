@@ -1,0 +1,41 @@
+{
+  "n_images": 7023,
+  "n_corrupt": 0,
+  "corrupt": [],
+  "per_split_class": {
+    "glioma": {
+      "testing": 300,
+      "training": 1321
+    },
+    "meningioma": {
+      "testing": 306,
+      "training": 1339
+    },
+    "notumor": {
+      "testing": 405,
+      "training": 1595
+    },
+    "pituitary": {
+      "testing": 300,
+      "training": 1457
+    }
+  },
+  "modes": {
+    "RGB": 3926,
+    "L": 3093,
+    "RGBA": 3,
+    "P": 1
+  },
+  "n_distinct_sizes": 387,
+  "csv_cross_check": {
+    "in_csv_not_on_disk": 0,
+    "on_disk_not_in_csv": 0,
+    "label_mismatch": 0
+  },
+  "exact_duplicates": {
+    "groups": 194,
+    "extra_copies": 297,
+    "groups_with_conflicting_labels": 0,
+    "train_test_overlap_images": 103
+  }
+}

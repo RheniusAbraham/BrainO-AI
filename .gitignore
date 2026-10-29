@@ -1,0 +1,17 @@
+# Data and weights stay out of Git
+Dataset/
+data/raw/
+data/processed/*.parquet
+models/checkpoints/
+models/exported/*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Cached tensors
+*.npy
+logs/
